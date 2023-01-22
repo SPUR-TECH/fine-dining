@@ -15,6 +15,10 @@
     color: white;
     }
 
+    b {
+        color: var(--color-golden);
+    }
+
 .app__navbar-logo {
     width: 150px;
     padding-left: 10px;

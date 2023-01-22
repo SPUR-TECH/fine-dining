@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="#home"><h1><i>Fine Dining</i></h1></a>
+        <a href="#home"><h1><i><b>~</b> Gourmet Restaurant <b>~</b> </i></h1></a>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
