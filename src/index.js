@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// https://www.youtube.com/watch?v=4oV65GVVits
 
-import './index.css';
-import App from './App';
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import "./index.css";
+import App from "./App";
 
+createRoot(document.getElementById("root")).render(<App />);
